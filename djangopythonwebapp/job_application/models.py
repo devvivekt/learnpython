@@ -1,5 +1,6 @@
 from django.db import models
 
+
 # Create your models here.
 class Form(models.Model):
     first_name = models.CharField(max_length=80)
